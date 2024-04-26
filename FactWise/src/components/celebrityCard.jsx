@@ -117,7 +117,16 @@ const CelebrityCard = ({ id, first, last, dob, gender, picture, country, descrip
                                 <Form.Control
                                     type="text"
                                     value={editedCountry}
-                                    onChange={(e) => setEditedCountry(e.target.value)}
+                                    onChange={(e) => {
+                                        const input = e.target.value;
+                                        if (/^[A-Za-z\s]+$/.test(input)) {
+                                            setEditedCountry(input);
+                                            e.target.classList.remove('invalid-input'); 
+                                        } else {
+                                            e.target.classList.add('invalid-input'); 
+                                        }
+                                    }}
+                                    className={/^[A-Za-z\s]+$/.test(editedCountry) ? '' : 'invalid-input'} 
                                 />
                             ) : (
                                 <div>
