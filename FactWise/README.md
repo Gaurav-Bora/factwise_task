@@ -1,8 +1,8 @@
 # React + Vite
 
-Run the Task 
-npm install
-npm run dev
+Run the Task :-
+npm install,
+npm run dev.
 
 
 Create a 60-second video defining or telling us what part of the react challenge you found the hardest to crack! 
