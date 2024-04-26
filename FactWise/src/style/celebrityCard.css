@@ -91,3 +91,7 @@
 .del {
     background-color: orangered;
 }
+
+.invalid-input {
+    border-color: red;
+}
