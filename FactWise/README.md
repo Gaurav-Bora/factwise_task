@@ -1,5 +1,18 @@
 # React + Vite
 
+Run the Task 
+npm install
+npm run dev
+
+
+Create a 60-second video defining or telling us what part of the react challenge you found the hardest to crack! 
+
+https://drive.google.com/file/d/1v059wvpmb22bHaoYWUJtPXkznF3oR2CI/view?usp=sharing
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
